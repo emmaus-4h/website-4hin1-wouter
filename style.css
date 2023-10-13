@@ -5,7 +5,7 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/*  * {border: 1px dotted black;}   */
+  * {border: 1px dotted black;}   
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
@@ -55,7 +55,7 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: skyblue;
+  color: red;
 } 
 
 p {
@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: blue;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #dddddd;
+  background-color:black;
   overflow: hidden;
 }
 
@@ -106,11 +106,11 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color: #black;
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: red;
 }
 
 
@@ -121,7 +121,7 @@ nav li a.active {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item-plaatje {
-  float: left;
+  float:left;
   width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
@@ -132,7 +132,26 @@ nav li a.active {
 }
 
 /************************* SUBPAGINA *************************/
+.charles-leclerc {
+float:left;
+  padding-right:15px;
+}
 
+.carlos-sainz {
+float:left;
+  clear:left;
+  padding-right:15px;
+}
+
+.oud-f1{
+float:let;
+  clear:right;
+  padding-right:15px;
+
+  .spa-f1{
+float:let;
+  clear:right;
+  padding-right:0px;
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
