@@ -120,9 +120,9 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
+.item-logo {
   float:left;
-  width: 250px;
+  width: 240px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
@@ -137,10 +137,6 @@ float:left;
   padding-right:15px;
 }
 
-f1-logo {
-float:left ;
-  witdh: 50 px
-}
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
