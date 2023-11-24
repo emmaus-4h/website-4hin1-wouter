@@ -55,10 +55,12 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: red;
+  color: #e1740e;
 } 
 
 p {
+  font-size: 15px;
+  color:#ffffff;
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
@@ -110,7 +112,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: red;
+  background-color: #d66800;
 }
 
 
@@ -140,3 +142,11 @@ float:left;
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
+
+
+body { background-image: url(https://i.redd.it/i-drew-a-minimalist-wallpaper-of-the-mcl36-v0-ebca82j4b5i81.jpg?width=1440&format=pjpg&auto=webp&s=9354a0dda952d8578163e83fb80a774cd3a0dc74);
+  height: 1800px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
