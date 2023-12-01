@@ -6,7 +6,7 @@
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
   * {border: 1px dotted black;}   
-  
+
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -52,13 +52,14 @@ main {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1, h2, h3 ,h4{                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
   color: #e1740e;
 } 
 
 p {
+  float: right;
   font-size: 15px;
   color:#ffffff;
   margin: 10px 0px;
@@ -150,3 +151,35 @@ body { background-image: url(https://i.redd.it/i-drew-a-minimalist-wallpaper-of-
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+.Mclaren{
+float:left;
+  padding-right:15px;
+  }
+
+.Mclaren{float: left;
+
+}
+.mp4{
+  float: right;
+  
+}
+
+p {
+  background-color: rgb(97, 97, 97, 0.5);
+}
+  .race-team1{
+    padding-right:15px;
+   width:70%;
+                height:200px;
+                overflow:auto;
+            }
+
+  .oscar{
+    padding-right:15px;
+   width:70%;
+                height:200px;
+                overflow:auto;
+            }
+
+.patricio{}
