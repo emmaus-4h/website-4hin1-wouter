@@ -226,7 +226,7 @@ p {
     width:49%;
                  height:210px;
                  overflow:auto;
-
+}
 
 
   .brucemc{
@@ -235,6 +235,7 @@ p {
       width:49%;
                    height:210px;
                    overflow:auto;
+  }
 
     .mclarenfoto{
       float: right;
@@ -263,11 +264,75 @@ p {
                 }
 
     .leuk{
-      float: left;
+      float: right;
        padding-right:15px;
         width:49%;
-                     height:210px;
+                   height:200px ;
                      overflow:auto;
     }
 
-   
+    .bbbruce{
+      float: right;
+        padding-right:15px;
+       width:48%;
+                    height:200px;
+                    overflow:auto;
+                }
+
+
+
+    .tek{
+      float: left;
+       padding-right:15px;
+        width:49%;
+                   height:200px ;
+                     overflow:auto;
+    }
+
+  .formule{
+    float: left;
+      padding-right:15px;
+     width:49%;
+                  height:200px;
+  }
+
+
+
+.kup{
+  float: left;
+   padding-right:15px;
+    width:49%;
+               height:200px ;
+                 overflow:auto;
+}
+
+
+.klp{
+  float: right;
+    padding-right:15px;
+   width:48%;
+                height:200px;
+}
+
+
+.Mclaren{
+  float: right;
+    padding-right:15px;
+   width:48%;
+                height:200px;}
+
+
+.logoo{
+  float: right;
+    padding-right:15px;
+   width:48%;
+                height:200px;}
+
+
+.mclarenn{
+  float: left;
+   padding-right:15px;
+    width:49%;
+               height:200px ;
+                 overflow:auto;
+}
